@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Survey From By Zubayer Hossain</title>
+</head>
+<body>
+    <div class="timer-container">
+        <h4 class="true">This is the timer</h4>
+        <span id="timer">00:00:00</span>
+    </div>
+    <div><h1 class="top">University Survey</h1></div>
+    <div class="container">
+        
+        <form id="surveyForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Enter a valid email address" required>
+            
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" placeholder="Enter 10-digit number" required>
+                         
+            <div class="a">
+                <div class="todo"> 
+                    <h3 style="background-color: aquamarine; color: brown; text-align: center;">Help Us answering below questions</h3>
+                </div> 
+                <div class="froms">
+                <label>1.Which program are you interested in applying for?<br></label>
+                <div> 
+                    <input type="radio" id="Undergraduate" name="program" value="Undergraduate">
+                    <label for="Undergraduate">  Undergraduate</label>
+                    <input type="radio" id="Graduate" name="program" value="Graduate">
+                    <label for="Graduate">  Graduate</label>
+                    <input type="radio" id="Certificate Program" name="program" value="Certificate Program">
+                    <label for="Graduate">  Certificate Program</label>
+                </div>
+                </div>
+
+
+                <div class="froms">
+                <label>2.What is your highest level of education completed?<br></label>
+                <div> 
+                    <input type="radio" id="High School" name="highest level of education completed" value="High School">
+                    <label for="High School">  High School</label>
+                    <input type="radio" id="Graduation" name="highest level of education completed" value="Graduation">
+                    <label for="Graduation">  Graduation</label>
+                </div>
+</div>
+
+<div class="froms">
+    <label>3.When do you plan to start your studies?<br></label>
+    <div> 
+        <input type="radio" id="Fall" name="plan to start your studies" value="Fall">
+        <label for="Fall">  Fall</label>
+        <input type="radio" id="Spring" name="plan to start your studies" value="Spring">
+        <label for="Spring">  Spring</label>
+        <input type="radio" id="Summer" name="plan to start your studies" value="Summer">
+        <label for="Summer">  Summer</label>
+        <input type="radio" id="Winter" name="plan to start your studies" value="Winter">
+        <label for="Winter">  Winter</label>
+    </div>
+</div>
+
+
+<div class="froms">
+    <label>4.How did you hear about our institution?<br></label>
+    <div> 
+        <input type="radio" id="Social Media" name="hear about our institution from" value="Social Media">
+        <label for="Social Media">  Social Media</label>
+        <input type="radio" id="Website" name="hear about our institution from" value="Website">
+        <label for="Website">  Website</label>
+        <input type="radio" id="College Fair" name="hear about our institution from" value="College Fair">
+        <label for="College Fair"> College Fair</label>
+        <input type="radio" id="Referral" name="hear about our institution from" value="Referral">
+        <label for="Referral">  Referral</label>
+    </div>
+</div>
+
+
+<div class="froms">
+    <label>5.Are you aware of the admission requirements for your chosen program?<br></label>
+    <div> 
+        <input type="radio" id="Yes" name="aware of the admission requirements" value="Yes">
+        <label for="Yes">  Yes</label>
+        <input type="radio" id="No" name="aware of the admission requirements" value="No">
+        <label for="No">  No</label>
+    </div>
+</div>
+
+
+<div class="froms">
+    <label>6.Have you explored financial aid options and scholarships available at our institution? </label>
+    <div> 
+        <input type="radio" id="Yes" name="explored financial aid options and scholarships available " value="Yes">
+        <label for="Yes">  Yes</label>
+        <input type="radio" id="No" name="explored financial aid options and scholarships available " value="No">
+        <label for="No">  No</label>
+    </div>
+</div>
+
+
+<div class="froms">
+    <label>7.What motivated you to apply to our institution?<br></label>
+    <div> 
+        <input type="radio" id="Reputation" name="To apply to our institution for " value="Reputation">
+        <label for="Reputation">  Reputation</label>
+        <input type="radio" id="Location" name="To apply to our institution for " value="Location">
+        <label for="Location">  Location</label>
+        <input type="radio" id="Recommendations" name="To apply to our institution for " value="Recommendations">
+        <label for="Recommendations">   Recommendations</label>
+    </div>
+</div>
+
+
+<div class="froms">
+    <label>8.Are you involved in any extracurricular activities or community service? <br></label>
+    <div> 
+        <input type="radio" id="Yes" name="involved in any extracurricular activities or community service" value="Yes">
+        <label for="Yes">  Yes</label>
+        <input type="radio" id="No" name="involved in any extracurricular activities or community service" value="No">
+        <label for="No">  No</label>
+    </div>
+</div>
+
+<div class="froms">
+    <label>9.What are your academic and career goals after completing the program?<br></label>
+    <div class="cg"> 
+        <input type="text" id="name" name="academic and career goal" style="width: 100%;">
+   
+    </div>
+</div>
+
+
+
+            
+            </div>
+            
+            <div class="horizontal-options">
+                <label>10.What it your Favorite Color?</label>
+                <div>
+                    <input type="radio" id="colorRed" name="Favorite Color" value="red">
+                    <label for="colorRed">Red</label>
+                </div>
+                <div>
+                    <input type="radio" id="colorBlue" name="Favorite Color" value="blue">
+                    <label for="colorBlue">Blue</label>
+                </div>
+                <div>
+                    <input type="radio" id="colorGreen" name="Favorite Color" value="green">
+                    <label for="colorGreen">Green</label>
+                </div>
+            </div>
+
+            <div class="horizontal-options">
+                <label>11.Select your hobbies:</label>
+                <div>
+                    <input type="checkbox" id="hobbyReading" name="hobbies" value="reading">
+                    <label for="hobbyReading">Reading</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="hobbyGaming" name="hobbies" value="gaming">
+                    <label for="hobbyGaming">Gaming</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="hobbyTraveling" name="hobbies" value="traveling">
+                    <label for="hobbyTraveling">Traveling</label>
+                </div>
+            </div>
+            <div class="froms">
+                <label>12.Did you find the support and guidance provided during the application process helpful?<br></label>
+                <div> 
+                    <input type="radio" id="hs" name="Is this " value="hs">
+                    <label for="hs">  Very Helpful</label>
+                    <input type="radio" id="hs" name="Is this " value="hs">
+                    <label for="hs">  Helpful</label>
+                    <input type="radio" id="hs" name="Is this " value="hs">
+                    <label for="hs">  Neutral</label>
+                    <input type="radio" id="hs" name="Is this " value="hs">
+                    <label for="hs">  Unhelpful</label>
+                </div>
+            </div>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+        <textarea id="jsonOutput" readonly></textarea>
+        <div class="animation-element">
+            This University Survey Form Created By Zubayer Hossain
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
